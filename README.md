@@ -11,17 +11,17 @@ Based on [behdad/fonttools](https://github.com/behdad/fonttools) and [noto](http
 
 ### Usage
 
-Put 'coverage.py' and 'domywebfont.py' in the same folder, and execute the command below:
+Put 'coverage.py' and 'domywebfont.py' in the same folder, and execute the command below:  
 ```$ python domywebfont.py <input_font> <output_font> <word_list>```
 
-ex.
+ex.  
 ```$ python domywebfont.py NotoSansCJKtc-Light.otf NotoSansCJKtc-Light-min.otf words_to_keep_list.txt```
 
-- <input_font>: original font file name/path. (ex. noto.otf)
-- <output_font>: custom font file output name/path. (ex. noto-min.otf)
-- <word_list>: file keep words you want as one character each line. (ex. words_to_keep_list.txt)
+- input_font: original font file name/path. (ex. noto.otf)
+- output_font: custom font file output name/path. (ex. noto-min.otf)
+- word_list: file keep words you want as one character each line. (ex. words_to_keep_list.txt)
 
-You can go into 'example' folder and execute the command above to give it a try!
+You can go into 'example' folder and execute the command above to give it a try!  
 ![Alt text](/example/example_result.png)
 
 ### License
@@ -30,7 +30,7 @@ See "LICENSE.md" for licensing information.
 
 
 
-Do your web font!
+Do your web font!  
 p.s. Please don't use license protected font. (請勿用有版權的字體) 
 
 Bruce Lee <brucelee.ntu@gmail.com>
